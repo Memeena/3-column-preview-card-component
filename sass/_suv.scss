@@ -1,0 +1,16 @@
+.suv{
+    background-color: $color-dark-cyan;
+    
+    @include gridcont;
+
+    &__btn{
+        color: $color-dark-cyan;
+        justify-self: start;
+
+        &:hover{
+            background-color: $color-dark-cyan;
+            color: $color-very-light-gray;
+            border: 2px solid $color-transparent-white;
+        }
+    }
+}

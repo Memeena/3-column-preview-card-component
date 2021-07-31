@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  background-color: #f2f2f2; }
+
+.container {
+  margin: 10vh 12vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  border-radius: 10px;
+  overflow: hidden; }
+
+.heading {
+  font-size: 4.5rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.para__text {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.7; }
+
+.btn {
+  border: none;
+  border-radius: 3rem;
+  background-color: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 700; }
+
+.sedan {
+  background-color: #e38826;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 5rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr 1fr;
+  grid-row-gap: 3rem;
+  justify-content: start;
+  align-content: center; }
+  .sedan__btn {
+    color: #e38826;
+    justify-self: start; }
+    .sedan__btn:hover {
+      background-color: #e38826;
+      color: #f2f2f2;
+      border: 2px solid rgba(255, 255, 255, 0.75); }
+
+.suv {
+  background-color: #006970;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 5rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr 1fr;
+  grid-row-gap: 3rem;
+  justify-content: start;
+  align-content: center; }
+  .suv__btn {
+    color: #006970;
+    justify-self: start; }
+    .suv__btn:hover {
+      background-color: #006970;
+      color: #f2f2f2;
+      border: 2px solid rgba(255, 255, 255, 0.75); }
+
+.luxury {
+  background-color: #004241;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 5rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr 1fr;
+  grid-row-gap: 3rem;
+  justify-content: start;
+  align-content: center; }
+  .luxury__btn {
+    color: #004241;
+    justify-self: start; }
+    .luxury__btn:hover {
+      background-color: #004241;
+      color: #f2f2f2;
+      border: 2px solid rgba(255, 255, 255, 0.75); }

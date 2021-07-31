@@ -1,0 +1,18 @@
+.sedan{
+    background-color: $color-bright-orange;
+           
+    @include gridcont;
+
+    // border-radius: 10px 0 0 10px;
+
+    &__btn{
+        color: $color-bright-orange;
+        justify-self: start;
+
+        &:hover{
+            background-color: $color-bright-orange;
+            color: $color-very-light-gray;
+            border: 2px solid $color-transparent-white;
+        }
+    }
+}

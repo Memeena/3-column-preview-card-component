@@ -1,0 +1,18 @@
+.luxury{
+    background-color: $color-very-dark-cyan;
+    
+    @include gridcont;
+
+    // border-radius: 0 10px 10px 0;
+
+    &__btn{
+        color: $color-very-dark-cyan;
+        justify-self: start;
+
+        &:hover{
+            background-color: $color-very-dark-cyan;
+            color: $color-very-light-gray;
+            border: 2px solid $color-transparent-white;
+        }
+    }
+}
